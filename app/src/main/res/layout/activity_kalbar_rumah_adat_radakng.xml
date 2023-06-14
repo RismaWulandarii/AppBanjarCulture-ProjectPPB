@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".KalselRumahAdat_BubunganTinggi">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Radakng"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/rumahadat_kalbar_radakng"
+            app:shapeAppearanceOverlay="@style/roundImageView"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rumah Panjang khas Kalimantan Barat dikenal dengan nama Rumah Radakng, sebutan untuk rumah suku Dayak Kanayatn. Bentuk Rumah Radakng adalah panggung dengan material utamanya dari kayu ulin."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bagian rumah ini terbagi menjadi bilik-bilik dengan tangga untuk naik di masing-masing biliknya. Sepanjang rumah akan terdapat teras yang disebut pante. Pada tiap bilik ada akan ada ruang tamu atau samik, dengan pene sebagai tempat duduk saat menerima tamu atau tempat tidur ketika tamu menginap."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Selain itu ada pula ruang keluarga berukuran 6 x 6 meter dan juga dapur atau uakngmik. Ornamen hias rumah tradisional ini umumnya memiliki ukiran kayu menyerupai tameng perang dan patung burung. Sementara atap yang menyatu untuk semua bilik berbentuk pelana dengan material sirap."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnPrev_rumahAdat_kalbar"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</ScrollView>

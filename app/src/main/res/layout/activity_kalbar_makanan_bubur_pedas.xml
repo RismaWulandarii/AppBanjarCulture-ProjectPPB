@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".KalbarMakanan_BuburPedas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bubur Pedas"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/makanan_kalbar_buburpedas"
+            app:shapeAppearanceOverlay="@style/roundImageView" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Menurut cerita masyarakat, Bubur Pedas Sambas atau bubbor paddas, dahulu berasal dari Suku Melayu yang menempati wilayah Singkawang, Pontianak dan sekitarnya. Bubur pedas yang terbuat dari beras tumbuk halus ini dulunya merupakan makanan khusus para raja. Bubur Sambas hanya akan dimasak pada acara kerajaan maupun acara adat yang sangat sakral."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Proses pembuatannya dimulai dengan beras yang ditumbuk halus, kemudian dioseng dan diberi aneka bumbu rempah serta sayuran. Tidak heran jika bubur ini dinilai penuh gizi, dan memiliki rasa yang sangat segar. Sayuran seperti kangkung, pakis, dan daun kesum menjadi campuran yang menyehatkan. Untuk rasa pedasnya, banyak orang mengira bahwa Bubur Pedas Sambas ini memiliki rasa pedas yang berasal dari cabai. Padahal tidak. Rasa pedasnya berasal dari lada saat bumbu beras disangrai. Bubur Sambas sendiri rasanya tidaklah sangat pedas, tetapi rasa pedasnya sedikit saja."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+        <Button
+            android:id="@+id/btnPrev_makanan_kalbar"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</ScrollView>

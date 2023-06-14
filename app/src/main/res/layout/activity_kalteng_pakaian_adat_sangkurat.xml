@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".KalselPakaianAdat_BagajahGamulingBaularLulut">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sangkurat"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/bajuadat_kalteng_sangkurat"
+            app:shapeAppearanceOverlay="@style/roundImageView"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Baju sangkarut atau juga dikenal dengan baju basulau merupakan pakaian adat asal Kalimantan Tengah. Baju sangkarut dibuat oleh suku Dayak Ngaju yang bermukim di daerah Sungai Kapuas, Kalimantan Tengah."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Baju berbentuk rompi ini berasal dari bahan dasar alam dengan dihiasi kerang. Mengutip dari Dinas Kominfo, Persandian, dan Statistik Provinsi Kalimantan Tengah, bahan dasar baju sangkarut mengandung serat daun nanas, serat daun lemba, serta tengang, dan serat nyamu."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kulit dari daun lemba merupakan kulit tumbuhan pinang puyuh yang tumbuh di Kalimantan. Kulit daun lemba berstruktur keras dan berserat sehingga kuat untuk dibentuk menjadi rompi. Ornamen yang menghiasi baju sangkarut dibuat dengan bahan alami seperti kerang, tempelan kulit trenggiling, kancing, uang logam, manik-manik, dan benda magis."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnPrev_pakaianAdat_kalteng"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</ScrollView>

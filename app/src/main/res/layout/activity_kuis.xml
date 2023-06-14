@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".Kuis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Quiz"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/myGambar"
+                android:layout_width="300dp"
+                android:layout_height="230dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="53dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/rumahadat_kalsel_bubungantinggi"
+                app:shapeAppearanceOverlay="@style/roundImageView"/>
+
+            <TextView
+                android:id="@+id/txtTanya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_margin="5dp"
+                android:textSize="17sp"
+                android:text="1. Soal?" />
+
+            <RadioGroup
+                android:id="@+id/RadioGroup01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A. Pilihan A"
+                    android:textColor="#000"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B. Pilihan B"
+                    android:textColor="#000"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C. Pilihan C"
+                    android:textColor="#000"></RadioButton>
+
+                <RadioButton
+                    android:id="@+id/radD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D. Pilihan D"
+                    android:textColor="#000"></RadioButton>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

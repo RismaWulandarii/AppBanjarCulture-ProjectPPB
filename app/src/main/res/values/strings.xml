@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppBanjarCulture</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="menu_logout">Logout</string>
+    <string name="about">About App</string>
+    <string name="webclientid">1097835560702-00lodj7tr4gg9csvrjvfpdioc8a301tv.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        tools:targetApi="31">
+        <activity
+            android:name=".KalutMakanan_KepitingSoka"
+            android:exported="false" />
+        <activity
+            android:name=".KalutRumahAdat_Baloy"
+            android:exported="false" />
+        <activity
+            android:name=".KalutPakaianAdat_TaaDanSapeiSapaq"
+            android:exported="false" />
+        <activity
+            android:name=".KalutAlatMusik_Gambang"
+            android:exported="false" />
+
+        <activity
+            android:name=".KaltimMakanan_NasiBekepor"
+            android:exported="false" />
+        <activity
+            android:name=".KaltimRumahAdat_Lamin"
+            android:exported="false" />
+        <activity
+            android:name=".KaltimPakaianAdat_Takwo"
+            android:exported="false" />
+        <activity
+            android:name=".KaltimAlatMusik_Sampek"
+            android:exported="false" />
+
+        <activity
+            android:name=".KalbarMakanan_BuburPedas"
+            android:exported="false" />
+        <activity
+            android:name=".KalbarPakaianAdat_King"
+            android:exported="false" />
+        <activity
+            android:name=".KalbarAlatMusik_Entebong"
+            android:exported="false" />
+        <activity
+            android:name=".KalbarRumahAdat_Radakng"
+            android:exported="false" />
+
+        <activity
+            android:name=".KaltengAlatMusik_Garantung"
+            android:exported="false" />
+        <activity
+            android:name=".KaltengRumahAdat_Betang"
+            android:exported="false" />
+        <activity
+            android:name=".KaltengPakaianAdat_Sangkurat"
+            android:exported="false" />
+        <activity
+            android:name=".KaltengMakanan_Kalumpe"
+            android:exported="false" />
+
+        <activity
+            android:name=".KalselRumahAdat_BubunganTinggi"
+            android:exported="false" />
+        <activity
+            android:name=".KalselPakaianAdat_BagajahGamulingBaularLulut"
+            android:exported="false" />
+        <activity
+            android:name=".KalselAlatMusik_Panting"
+            android:exported="false" />
+        <activity
+            android:name=".KalselMakanan_SotoBanjar"
+            android:exported="false" />
+
+        <activity
+            android:name=".KebudayaanKalut"
+            android:exported="false" />
+        <activity
+            android:name=".KebudayaanKaltim"
+            android:exported="false" />
+        <activity
+            android:name=".KebudayaanKalteng"
+            android:exported="false" />
+        <activity
+            android:name=".KebudayaanKalsel"
+            android:exported="false" />
+        <activity
+            android:name=".KebudayaanKalbar"
+            android:exported="false" />
+        <activity
+            android:name=".Kebudayaan"
+            android:exported="false" />
+
+        <activity
+            android:name=".Kuis"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true"
+            android:label="SignUp" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

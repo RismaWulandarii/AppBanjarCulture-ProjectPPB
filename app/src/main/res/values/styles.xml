@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">#74B49B</item>
+        <item name="colorPrimaryDark">#5C8D89</item>
+
+    </style>
+
+    <style name="roundImageView" parent="">
+
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">60dp</item>
+        <item name="color">@color/white</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+    </style>
+
+    <!-- Base application theme. -->
+
+</resources>

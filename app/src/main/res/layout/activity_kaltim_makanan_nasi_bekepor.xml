@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".KaltimMakanan_NasiBekepor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Nasi Bekepor"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/makanan_kaltim_nasibekepor"
+            app:shapeAppearanceOverlay="@style/roundImageView" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nasi Bekepor merupakan salah satu hidangan khas Kalimantan Timur. Hidangannya serupa nasi liwet karena proses memasaknya sama-sama dilakukan di atas arang. Untuk membuat masakan ini, cukup mencampurkan nasi setengah matang dengan daun kemangi, cabai, perasan jeruk nipis, minyak sayur, dan potongan ikan asin dalam sebuah kendi atau kuali besar."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Karena dimasak dengan kayu bakar atau arang, aroma masakan ini sungguh menggoda dan khas. Sepintas, nasi bekepor mirip dengan nasi uduk, tetapi dimasak tanpa santan. Dari segi rasa pun sebenarnya berbeda sebab pada nasi bekepor sudah dicampur dengan ikan dan rempah-rempah. Rasanya semakin nikmat ketika nasi bekepor dihidangankan langsung dari kendi. Meski melewati dua kali proses memasak, nasi bekepor tetap pulen dan tidak sampai lembek. Warnanya memang agak pucat dan berminyak karena telah dicampur berbagai bumbu serta tambahan minyak. Untuk menikmati nasi bekepor biasanya ditambahkan beberapa lauk pelengkap seperti daging bumi hangus atau daging bumbu kecap, sayur terung dengan bawang dayak, ikan jelawat, gangan asam kukar yang dimasak dengan kepala ikan dan ubi manis, serta gence ruang, yaitu sambal goreng khas Kalimantan Timur."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnPrev_makanan_kaltim"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</ScrollView>

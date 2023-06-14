@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1097835560702",
+    "project_id": "app-banjar-culture",
+    "storage_bucket": "app-banjar-culture.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097835560702:android:739ba1484e82411aacafaf",
+        "android_client_info": {
+          "package_name": "com.example.appbanjarculture"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097835560702-788ngjoi9nbnq799r68hqqjjelrqr8kc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appbanjarculture",
+            "certificate_hash": "338e01610da28457d678f4bab37b557fc63fa32d"
+          }
+        },
+        {
+          "client_id": "1097835560702-isrhekqp4ifjesdv8j2b72l7m7d2dsuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDctv4VccYt084Ura1pLnFkCJFmWlpxW-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097835560702-00lodj7tr4gg9csvrjvfpdioc8a301tv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".KalselPakaianAdat_BagajahGamulingBaularLulut">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Bagajah Gamuling Baular Lulut"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:fontFamily="casual"
+            android:textColor="#f4f9f4"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="2000dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/bajuadat_kalsel_bagajahgamulingbaularlulut"
+            app:shapeAppearanceOverlay="@style/roundImageView"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:rowCount="1"
+            android:columnOrderPreserved="false"
+            android:padding="14dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="16dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="16dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pakaian adat bagajah gamuling baular lulut merupakan jenis pakaian adat yang berasal dari provinsi Kalimantan selatan.
+Jenis pakaian ini biasa dipakai untuk upacara pernikahan dan biasa dipakai oleh kedua mempelai yakni mempelai wanita dan laki-laki."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Model pakaian adat laki-laki memiliki ciri khas yakni baju terdapat kerah, biasanya baju ini dipadukan dengan celana yang panjang.
+Serta lengkap dengan aksesoris seperti kalung samban, ikat pinggang, mahkota dengan berntuk ular lidi, serta kain motif kelabang atau halilipan."
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pakaian pengantin wanita tentunya berbeda dengan pakaian pengantin lakidikenal denganlaki, untuk pengantin wanita yakni memiliki bentuk dan terdapat penutup dada.
+Serta terdapat aksesoris seperti selendang, ikat pinggang, mahkota, konde, kuncup bunga melati, dan kembang guyang. Selain itu terdapat bawahan yang terdiri atas kain panjang bermotif halilipan atau sebagai roknya, dan jenis pakaian gamuling baulur lulut merupakan pakaian adat yang terbilang kaya.
+Selain itu juga terdapat sebuah bunga melati serta bunga mawar yang berhias.
+"
+                        android:justificationMode="inter_word"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+        <Button
+            android:id="@+id/btnPrev_pakaianAdat_kalsel"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Kembali"/>
+
+    </LinearLayout>
+
+</ScrollView>
